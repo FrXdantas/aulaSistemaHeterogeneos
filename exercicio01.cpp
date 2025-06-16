@@ -7,7 +7,7 @@ using namespace std;
 
 int main () {
     ofstream image_Input;
-    image_Input.open("./images/Imagem.ppm");
+    image_Input.open("./images/sample_640x426.ppm");
 
     if (image_Input.is_open()) {
         //inicio da imagem
